@@ -8,5 +8,5 @@ En la raiz del proyecto se debe crear un archivo .env con la variable url='https
 ~/soyyo-api> npm run build  
 ~/soyyo-api> npm run start
 ## Desde Docker
-~/> docker build -t co.com.soyyo.entity.filter-dev-1_0_0 .  
-~/> docker run -p MACHINE-PORT:CONTAINER-PORT co.com.soyyo.entity.filter-dev-1_0_0
+~/soyyo-api> docker build -t co.com.soyyo.entity.filter-dev-1_0_0 .  
+~/soyyo-api> docker run -p MACHINE-PORT:CONTAINER-PORT co.com.soyyo.entity.filter-dev-1_0_0
